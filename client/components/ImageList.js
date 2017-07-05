@@ -11,9 +11,14 @@ const ImageList = (props) => {
   });
 
   return (
-    <ul>
-      {renderedImages}
-    </ul>
+    <div>
+      <div className="header">
+        <img src="http://i.imgur.com/HnJkrC5.gif"/>
+      </div>
+      <ul>
+        {renderedImages}
+      </ul>
+    </div>
   );
 };
 
